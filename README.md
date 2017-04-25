@@ -1,6 +1,6 @@
 # npmtest-good-console
 
-#### test coverage for  [good-console (v6.4.0)](https://github.com/hapijs/good-console)  [![npm package](https://img.shields.io/npm/v/npmtest-good-console.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-good-console) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-good-console.svg)](https://travis-ci.org/npmtest/node-npmtest-good-console)
+#### basic test coverage for  [good-console (v6.4.0)](https://github.com/hapijs/good-console)  [![npm package](https://img.shields.io/npm/v/npmtest-good-console.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-good-console) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-good-console.svg)](https://travis-ci.org/npmtest/node-npmtest-good-console)
 
 #### Console broadcasting for Good process monitor
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-good-console/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-good-console/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-good-console/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-good-console/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-good-console/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-good-console/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-good-console/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-good-console/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-good-console/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-good-console/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-good-console/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-good-console/build/coverage.html/index.html)
 
@@ -75,7 +75,8 @@
     "scripts": {
         "test": "lab -t 100 -vLa code"
     },
-    "version": "6.4.0"
+    "version": "6.4.0",
+    "bin": {}
 }
 ```
 
